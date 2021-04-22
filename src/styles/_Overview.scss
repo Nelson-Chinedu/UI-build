@@ -1,0 +1,15 @@
+.c-overview{ 
+  margin: 20px 0px;
+  h3{
+    font-family: 'Mulish', sans-serif;
+  }
+  .c-overview-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    @media screen and (max-width:640px){
+      flex-direction: column;
+    }
+  }
+
+}
